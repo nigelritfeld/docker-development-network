@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  mariadb:
+    image: mariadb:latest
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: my-secret-pw
+    volumes:
+      - ./data/mariadb:/var/lib/mysql
+    expose:
+      - 3306
+    ports:
+      - 3306:3306
+
+  phpmyadmin:
+    depends_on:
+      - mariadb
+    image: phpmyadmin
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      - PMA_HOST=mariadb
+      - PMA_PORT=3306
+      - PMA_USER=root
+      - PMA_PASSWORD=my-secret-pw
+      - PMA_ARBITRARY=1
