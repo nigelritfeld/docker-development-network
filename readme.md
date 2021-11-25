@@ -5,3 +5,15 @@ The environment contains the following tech stack:
 - MyPhpAdmin
 - Nginx
 - PHP 8
+
+## Get started
+
+Navigate to the repo and create te following folder:
+
+    $ mkdir data
+    $ cd data
+    $ mkdir mariadb
+
+Next to start the environment run:
+
+    $ docker-compose run -d
