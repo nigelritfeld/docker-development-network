@@ -17,7 +17,9 @@ https://www.docker.com/products/docker-desktop
 1. Navigate to the repo and create te following folder:
 
     $ mkdir data
+    
     $ cd data
+    
     $ mkdir mariadb
 
 2. Next to start the environment run:
