@@ -5,6 +5,7 @@ The environment contains the following tech stack:
 - MyPhpAdmin
 - Nginx
 - PHP 8
+- Xdebug
 
 ## Install docker desktop
 To use this repo you need docker engine with docker compose installed.
