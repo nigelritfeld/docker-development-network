@@ -1,4 +1,4 @@
-# Environment for local development 
+# Environment for local PHP development 
 This repo contains files for setting up a local development environment using docker.
 The environment contains the following tech stack:
 - MariaDB
