@@ -46,6 +46,16 @@ You can easily stop the environment by opening docker desktop interface and stop
 
 PhpMyAdmin is available on http://localhost:8080
 
+** The Host is 'mariadb' wich will resolve to the correct ip adress in the docker network **
+
+When you are using PHP to connect to your local database use the following credentials
+
+| Credentials        | values        |
+| ------------------ |:-------------:|
+| Host               | mariadb       |
+| User               | root          |
+| Password           | my-secret-pw  |
+
 ## Contact
 
 This development environment is meant for php development.
