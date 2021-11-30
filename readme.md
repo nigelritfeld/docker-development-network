@@ -27,7 +27,7 @@ https://www.docker.com/products/docker-desktop
 ### Running the environment
 2. Next to start the environment run:
 ```
-    $ docker-compose run -build
+    $ docker-compose up -build
 ```
 
 3. Place your projects and files in the "project folders"
