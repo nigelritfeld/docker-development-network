@@ -7,7 +7,7 @@ The environment contains the following tech stack:
 - PHP 8
 - Xdebug
 
-Inspired on the PHP Vagrant Box
+Inspired by the PHP Vagrant Box
 https://github.com/antwanvdm/php-vagrant
 
 ## Install docker desktop
