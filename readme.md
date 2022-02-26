@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/nigelritfeld/docker-development-network/master/projects/dashboard/assets/img/about/about-1.png" />
+
 # Environment for local PHP development 
 This repo contains files for setting up a local development environment using docker.
 The environment contains the following tech stack:
